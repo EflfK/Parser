@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamradt.Parser", "Kamradt.Parser\Kamradt.Parser.csproj", "{7EC44902-412E-4512-A30C-FA1874E859C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamradt.Parser.Test", "Kamradt.Parser.Test\Kamradt.Parser.Test.csproj", "{A36AD1BC-B611-4DDD-BD18-282B600E0477}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F22D028-C6D0-4423-AD5B-0B15C22E0F97}"
+	ProjectSection(SolutionItems) = preProject
+		Kamradt.Parser\Kamradt.Parser.vsmdi = Kamradt.Parser\Kamradt.Parser.vsmdi
+		Kamradt.Parser\Local.testsettings = Kamradt.Parser\Local.testsettings
+		Kamradt.Parser\TraceAndTestImpact.testsettings = Kamradt.Parser\TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamradt.Parser.Web.Test", "Kamradt.Parser.Web.Test\Kamradt.Parser.Web.Test.csproj", "{D1CA51E0-9EDB-4B89-BE2B-1B70AD01A83F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamradt.Parser.Web", "Kamradt.Parser.Web\Kamradt.Parser.Web.csproj", "{065BA207-53D4-42E6-8F00-582D4CBFAA65}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://a-tfs01:8080/tfs/enterprise
+		SccProjectUniqueName0 = Kamradt.Parser\\Kamradt.Parser.csproj
+		SccProjectName0 = Kamradt.Parser
+		SccLocalPath0 = Kamradt.Parser
+		SccProjectUniqueName1 = Kamradt.Parser.Test\\Kamradt.Parser.Test.csproj
+		SccProjectName1 = Kamradt.Parser.Test
+		SccLocalPath1 = Kamradt.Parser.Test
+		SccLocalPath2 = .
+		SccProjectUniqueName3 = Kamradt.Parser.Web.Test\\Kamradt.Parser.Web.Test.csproj
+		SccProjectName3 = Kamradt.Parser.Web.Test
+		SccLocalPath3 = Kamradt.Parser.Web.Test
+		SccProjectUniqueName4 = Kamradt.Parser.Web\\Kamradt.Parser.Web.csproj
+		SccProjectName4 = Kamradt.Parser.Web
+		SccLocalPath4 = Kamradt.Parser.Web
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Kamradt.Parser\Kamradt.Parser.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EC44902-412E-4512-A30C-FA1874E859C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC44902-412E-4512-A30C-FA1874E859C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC44902-412E-4512-A30C-FA1874E859C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC44902-412E-4512-A30C-FA1874E859C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36AD1BC-B611-4DDD-BD18-282B600E0477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36AD1BC-B611-4DDD-BD18-282B600E0477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36AD1BC-B611-4DDD-BD18-282B600E0477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36AD1BC-B611-4DDD-BD18-282B600E0477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CA51E0-9EDB-4B89-BE2B-1B70AD01A83F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CA51E0-9EDB-4B89-BE2B-1B70AD01A83F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CA51E0-9EDB-4B89-BE2B-1B70AD01A83F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CA51E0-9EDB-4B89-BE2B-1B70AD01A83F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{065BA207-53D4-42E6-8F00-582D4CBFAA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{065BA207-53D4-42E6-8F00-582D4CBFAA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{065BA207-53D4-42E6-8F00-582D4CBFAA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{065BA207-53D4-42E6-8F00-582D4CBFAA65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

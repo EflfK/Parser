@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamradt.Parser", "Kamradt.Parser.csproj", "{7EC44902-412E-4512-A30C-FA1874E859C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kamradt.Parser.Test", "..\Kamradt.Parser.Test\Kamradt.Parser.Test.csproj", "{A36AD1BC-B611-4DDD-BD18-282B600E0477}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F22D028-C6D0-4423-AD5B-0B15C22E0F97}"
+	ProjectSection(SolutionItems) = preProject
+		Kamradt.Parser.vsmdi = Kamradt.Parser.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Kamradt.Parser.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EC44902-412E-4512-A30C-FA1874E859C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC44902-412E-4512-A30C-FA1874E859C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC44902-412E-4512-A30C-FA1874E859C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC44902-412E-4512-A30C-FA1874E859C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36AD1BC-B611-4DDD-BD18-282B600E0477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36AD1BC-B611-4DDD-BD18-282B600E0477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36AD1BC-B611-4DDD-BD18-282B600E0477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36AD1BC-B611-4DDD-BD18-282B600E0477}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
